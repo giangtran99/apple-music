@@ -1,0 +1,22 @@
+{
+  "name": "apple-music",
+  "version": "1.0.0",
+  "description": "apple music clone",
+  "main": "src/main/main.ts",
+  "author": "Giang Tran",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && electron .erb/dll/main/main.js",
+    "dev": "tsc && electronmon .erb/dll/main/main.js"
+  },
+  "devDependencies": {
+    "electron": "^23.2.0",
+    "electronmon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "global": "^4.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
