@@ -1,3 +1,4 @@
+import SideMenu from '@src/layouts/SideMenu'
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {

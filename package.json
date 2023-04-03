@@ -6,8 +6,8 @@
   "author": "Giang Tran",
   "license": "MIT",
   "scripts": {
-    "start": "tsc && electron .erb/dll/main/main.js",
-    "dev": "tsc && electronmon .erb/dll/main/main.js"
+    "start": "tsc && electron build/main/main.js",
+    "dev": "tsc && electronmon build/main/main.js"
   },
   "devDependencies": {
     "electron": "^23.2.0",
