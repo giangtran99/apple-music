@@ -1,0 +1,27 @@
+
+
+.side-bar{
+    grid-area: "side-bar";
+    border: solid;
+}
+
+.music-player{
+    grid-area: "music-player";
+    border: solid;
+
+}
+
+.main-content{
+    grid-area: "main-content";
+    border: solid;
+
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+      'side-bar side-bar music-player music-player music-player music-player'
+      'side-bar side-bar main-content main-content main-content main-content'
+      'side-bar side-bar main-content main-content main-content main-content';
+    
+}

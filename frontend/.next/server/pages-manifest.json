@@ -1,0 +1,9 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.html",
+  "/music-tab/artists": "pages/music-tab/artists.html",
+  "/music-tab/radio": "pages/music-tab/radio.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
